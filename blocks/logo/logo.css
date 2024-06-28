@@ -1,0 +1,32 @@
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6.25px;
+}
+
+.logo__image {
+  width: 92px;
+  height: 33px;
+}
+
+.logo__title {
+  font-weight: 700;
+  width: 147px;
+  color: var(--logo-color);
+  font-size: 16.651px;
+  line-height: 17.853px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 450px) {
+  .logo__image {
+    width: 80px;
+    height: 27px;
+  }
+  .logo__title {
+    width: 128px;
+    font-size: 14px;
+    line-height: 14.5px;
+  }
+}

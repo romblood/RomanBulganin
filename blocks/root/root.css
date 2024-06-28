@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --accent-color: #f54932;
+  --main-text-color: #313131;
+  --button-dark: #060606;
+  --button-hover-bright: #fbce51;
+  --button-text-color-dark: #1f1f1f;
+  --button-text-color-light: #ffffff;
+  --background-light-color: #e9ded4;
+  --main-link-color: #3057a2;
+  --main-link-text-color: #ffffff;
+  --main-light-text-color: #ffffff;
+  --logo-color: #595653;
+  --disabled-color: #d9d9d9;
+  --main-dark-color: #313131;
+  --light-gray-color: #d0d0d0;
+  --header-font: 'Merriweather', serif;
+  --main-font: 'Golos Text', sans-serif;
+}

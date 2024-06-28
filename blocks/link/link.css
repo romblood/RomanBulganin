@@ -1,0 +1,31 @@
+.link {
+  color: var(--main-link-color);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.link_style_outline {
+  border-radius: 62px;
+  border: 1px solid var(--main-link-color);
+  padding: 7px 12px;
+  -webkit-transition: all 100ms linear;
+  -o-transition: all 100ms linear;
+  transition: all 100ms linear;
+}
+
+.link_style_outline:hover {
+  background-color: var(--main-link-color);
+  color: var(--main-link-text-color);
+}
+
+@media screen and (max-width: 450px) {
+  .link {
+    font-size: 18px;
+    line-height: 21.6px;
+  }
+}

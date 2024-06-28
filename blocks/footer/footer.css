@@ -1,0 +1,41 @@
+.footer {
+  width: 100%;
+  background: var(--background-light-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.footer__container {
+  max-width: 1366px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 24px 72px 72px 72px;
+}
+
+.footer__text {
+  color: var(--main-text-color);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: "Golos Text", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__container {
+    padding: 24px 40px 72px 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer__container {
+    padding: 24px 20px 72px 20px;
+  }
+}

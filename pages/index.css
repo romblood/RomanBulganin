@@ -1,0 +1,31 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts/fonts.css');
+@import url('../blocks/button/button.css');
+@import url('../blocks/stroke-text/stroke-text.css');
+@import url('../blocks/accented-text/accented-text.css');
+@import url('../blocks/table/table.css');
+@import url('../blocks/link/link.css');
+@import url('../blocks/section-title/section-title.css');
+@import url('../blocks/carousel/carousel.css');
+@import url('../blocks/slider-controls/slider-controls.css');
+@import url('../blocks/grid-steps/grid-steps.css');
+
+@import url('../blocks/root/root.css');
+
+@import url('../blocks/page/page.css');
+
+@import url('../blocks/logo/logo.css');
+
+@import url('../blocks/intro/intro.css');
+
+@import url('../blocks/running-line/running-line.css');
+
+@import url('../blocks/advertisement/advertisement.css');
+
+@import url('../blocks/transformation/transformation.css');
+
+@import url('../blocks/participants/participants.css');
+@import url('../blocks/participant/participant.css');
+
+
+@import url('../blocks/footer/footer.css');

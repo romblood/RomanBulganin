@@ -1,0 +1,4 @@
+.accented-text {
+  color: var(--accent-color);
+  font-weight: 700;
+}
